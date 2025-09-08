@@ -74,7 +74,7 @@ Formally as a coding task, let `i` be an integer greater than zero and output th
 * If `i` is divisible by 3 and 5, print the string `Fizz Buzz` (note the space)
 * Otherwise, print the value of `i`
 
-- [ ] Try a short game of Fizz Buzz with your team now.
+- [x] Try a short game of Fizz Buzz with your team now.
 
 ---
 
@@ -133,7 +133,7 @@ class FizzBuzz {
 }
 ```
 
-- [ ] Open `FizzBuzz.java` in the `src/lab1` directory and click the run button in the top left corner.
+- [x] Open `FizzBuzz.java` in the `src/lab1` directory and click the run button in the top left corner.
 
 If you don't see this button, you may need to mark `src` as the `Sources Root` for the project. You can do this
 by right-clicking the `src` directory in the `Project` tab and near the bottom of the context menu
@@ -153,9 +153,10 @@ the code are doing. For example, what's the Java version of Python's `and`? What
 on with that weird `for` loop? As you do this, you might find it useful to write down your
 own implementation in Python to help you begin to create a mapping between the two languages.
 
-- [ ] Make note of any specific Java syntax which stands out to you and compare what you
+- [x] Make note of any specific Java syntax which stands out to you and compare what you
 come up with the rest of your team. Try to come up with a list of at least five things that
 strike you as either similar to or different from Python.
+  (colons, brackets, different for loop stuff, boolean operators, stating and calling variable types)
 
 > Tip: IntelliJ works just like PyCharm, so you can place breakpoints and step through the code
 > using the debugger in the same way. You might find it informative to try stepping through the
@@ -195,7 +196,7 @@ test the calculation for several interesting numbers more easily.
 
 3. Immediately, type the method name you want, maybe something like `doFizzBuzz`.
 
-- [ ] Rerun the program to verify that it still works.
+- [x] Rerun the program to verify that it still works.
 
 That's your first big IntelliJ trick! There are lots more.
 
@@ -258,15 +259,15 @@ Now, back to exploring the code!
 
 To briefly observe what private does, let's create a new class.
 
-- [ ] Right-click on `lab1` and select `New —> Java Class`. Name it `Main`. This will create a `Main.java` file.
+- [x] Right-click on `lab1` and select `New —> Java Class`. Name it `Main`. This will create a `Main.java` file.
 
 We'll write a main method which will attempt to call `FizzBuzz.doFizzBuzz` (or whatever you called
 your extracted helper method).
 
-- [ ] To quickly generate `main`, you can start typing `psvm` in IntelliJ and then press Enter to accept the
+- [x] To quickly generate `main`, you can start typing `psvm` in IntelliJ and then press Enter to accept the
 autocomplete — it will generate an empty "public static void main" (psvm) method for you. Neat!
 
-- [ ] In the body of this main method, type `FizzBuzz.`. You'll see that the private helper method does _not_
+- [x] In the body of this main method, type `FizzBuzz.`. You'll see that the private helper method does _not_
 appear in the autocomplete, but `FizzBuzz.main` does! If you wanted to be able to call the helper from
 inside `Main.java`, you would need to change the access modifier on the helper.
 It turns out that IntelliJ can help us out with this too!
